@@ -1,0 +1,72 @@
+label{
+    font-size: 13px;
+}
+
+.input-fields{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.076);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 3fr 1fr;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.input-fields input{
+    flex: 1;
+}
+
+.submit-btn{
+    min-width: 100px;
+    min-width: 100%;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.expense-form-edit-btn{
+    background-color: white;
+    border: solid 1px rgb(151, 78, 0);
+    color: rgb(151, 78, 0);
+    min-width: 70px;
+    border-radius: 10px;
+    padding: 5px 0 5px 0;
+    font-size: 13px;
+    min-height: 33px;
+    width: 50%;
+}
+
+.expense-form-update-btn{
+    background-color: white;
+    border: solid 1px rgb(0, 75, 151);
+    color: rgb(0, 75, 151);
+    min-width: 70px;
+    border-radius: 10px;
+    padding: 5px 0 5px 0;
+    font-size: 13px;
+    min-height: 33px;
+    width: 50%;
+}
+
+.submit-btn{
+    background-color: white;
+    border: solid 1px rgb(0, 75, 151);
+    color: rgb(0, 75, 151);
+    min-width: 70px;
+    border-radius: 10px;
+    padding: 5px 0 5px 0;
+    font-size: 13px;
+    min-height: 33px;
+    width: 100%;
+}
+
+.btn-group{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
