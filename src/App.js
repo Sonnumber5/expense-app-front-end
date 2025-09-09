@@ -99,6 +99,7 @@ function App() {
     if (expenseToUpdate){
       try{
         const response = await dataSource.put(`/expenses/${expenseToUpdate.id}`, expense);
+        setActivateEditForm(false);
         loadExpenses();
       }catch(error){
         console.log("Error creating expense", error);
