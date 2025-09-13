@@ -100,6 +100,7 @@ function App() {
       try{
         const response = await dataSource.put(`/expenses/${expenseToUpdate.id}`, expense);
         setActivateEditForm(false);
+        setExpenseToUpdate(null);
         loadExpenses();
       }catch(error){
         console.log("Error creating expense", error);
@@ -107,6 +108,8 @@ function App() {
     } else{
       try{
         const response = await dataSource.post("/expenses", expense);
+        setActivateEditForm(false);
+        setExpenseToUpdate(null);
         loadExpenses();
       }catch(error){
         console.log("Error creating expense", error);
