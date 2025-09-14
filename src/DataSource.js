@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: 'https://expenseappbackend-due6hhbebghwb3h8.westus3-01.azurewebsites.net'
+    baseURL: 'https://expense-app-back-end-0bd2f4b6085c.herokuapp.com'
 });
