@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: 'https://expense-app-back-end-0bd2f4b6085c.herokuapp.com'
+    baseURL: 'http://jack-parkison.eba-xf32yiqp.us-east-2.elasticbeanstalk.com'
 });
