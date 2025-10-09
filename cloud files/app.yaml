@@ -1,5 +1,5 @@
 runtime: nodejs
-env: flex
+env: standard
 
 manual-scaling:
   instances: 1
